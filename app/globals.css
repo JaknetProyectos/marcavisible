@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 40 6% 21%;
+    --card: 0 0% 100%;
+    --card-foreground: 40 6% 21%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 40 6% 21%;
+    --primary: 184 84% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 40 6% 21%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 184 84% 39%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 184 84% 39%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 96px;
+  }
+
+}
+
+@layer components {
+  /* Boton pildora principal del sitio */
+  .btn-pill {
+    @apply inline-flex items-center justify-center rounded-full bg-brand px-8 py-3
+      font-display text-[13px] font-semibold uppercase tracking-[0.08em] text-white
+      transition-all duration-300 hover:bg-brand-dark hover:shadow-pill
+      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/50
+      focus-visible:ring-offset-2 active:scale-[0.98];
+  }
+
+  .btn-pill-outline {
+    @apply inline-flex items-center justify-center rounded-full border-2 border-brand
+      bg-transparent px-8 py-3 font-display text-[13px] font-semibold uppercase
+      tracking-[0.08em] text-brand transition-all duration-300
+      hover:bg-brand hover:text-white active:scale-[0.98];
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-bold uppercase leading-tight tracking-tight
+      text-ink sm:text-4xl lg:text-[42px];
+  }
+
+  .prose-body {
+    @apply text-[15px] leading-[1.9] text-ink-soft;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+}
+
+/* Scrollbar discreta en el panel del carrito */
+.cart-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.cart-scroll::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 999px;
+}

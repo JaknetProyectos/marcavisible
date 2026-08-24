@@ -1,0 +1,405 @@
+{
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "summary": "1. Review",
+      "shippingPayment": "2. Delivery and Payment Details"
+    },
+    "success": {
+      "title": "Payment Authorized Successfully!",
+      "description": "Your transaction has been approved. Your cloud hosting plan configuration is currently being processed for immediate activation.",
+      "paymentReference": "Payment ID:",
+      "paidAmount": "Total Paid:",
+      "transactionStatus": "Transaction State:",
+      "approved": "APPROVED",
+      "backToCatalog": "Return to Catalog"
+    },
+    "empty": {
+      "title": "Your shopping cart is empty",
+      "description": "We could not find any hosting services or plans selected in your current browsing session.",
+      "goToStore": "View Catalog"
+    },
+    "order": {
+      "title": "Products in Your Order",
+      "clear": "Remove Plans"
+    },
+    "financial": {
+      "title": "Account Summary",
+      "couponPlaceholder": "Promo code",
+      "applyCoupon": "Validate",
+      "appliedCoupon": "Promo {code} (-{discount}%)",
+      "remove": "Delete",
+      "couponInvalid": "The discount code you entered is invalid or has expired.",
+      "subtotal": "Subtotal amount:",
+      "discount": "Discount applied:",
+      "netTotal": "Net Balance Due:",
+      "tax": "VAT {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Continue to Payment Form",
+      "processing": "Checking Funds through Octano...",
+      "payAmount": "Authorize {amount}",
+      "backToCart": "Edit my order / Modify coupon"
+    },
+    "errors": {
+      "declined": "The charge was rejected by the card issuer.",
+      "connection": "A communication error occurred with the payment platform."
+    },
+    "metadata": {
+      "couponApplied": "Promo code active",
+      "standardSale": "Standard digital purchase"
+    },
+    "form": {
+      "buyerTitle": "Purchaser / Billing Details",
+      "addressTitle": "Contact and Activation Details",
+      "paymentTitle": "Secured Payment Gateway",
+      "firstName": "First Name(s) *",
+      "lastName": "Last Name(s) *",
+      "shippingNotes": "Shipping Notes (Optional)",
+      "shippingNotesPlaceholder": "Additional details of the shipping or adress references.",
+      "email": "Email Address *",
+      "phone": "Cell Phone (10 digits) *",
+      "company": "Company Name (Optional)",
+      "streetAddress": "Street, Exterior No. and Interior No. *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Apt 4",
+      "neighborhood": "Neighborhood / Intersections (Optional)",
+      "neighborhoodPlaceholder": "Vértiz Narvarte",
+      "city": "City *",
+      "state": "State / Province *",
+      "statePlaceholder": "Mexico City",
+      "postalCode": "ZIP / Postal Code *",
+      "country": "Country",
+      "mexico": "Mexico (MX)",
+      "cardNumber": "Card Number (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Cardholder Full Name *",
+      "cardHolderPlaceholder": "Exactly as shown on the card",
+      "expiryMonth": "Exp. Month (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Exp. Year (YYYY) *",
+      "expiryYearPlaceholder": "2029",
+      "cvv": "Security Code (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Secured Transaction"
+    },
+    "images": {
+      "etominAlt": "Octano",
+      "securePaymentAlt": "Safe transaction"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "badge": "User Dashboard",
+      "title": "Add tailored quotation"
+    },
+    "imageAlt": "Lumetra logo",
+    "authorized": {
+      "title": "Payment verified",
+      "description": "Please provide the quotation number and the price previously agreed with our commercial team to proceed with your checkout."
+    },
+    "form": {
+      "badge": "Tailored checkout",
+      "title": "Quotation details",
+      "quoteLabel": "Quotation number",
+      "quotePlaceholder": "Ex. ELV-2026-001",
+      "amountLabel": "Agreed price",
+      "amountPlaceholder": "0.00",
+      "taxNote": "+ Corresponding VAT will be added on the following screen."
+    },
+    "buttons": {
+      "adding": "Placing in basket...",
+      "addToCart": "Add to basket"
+    },
+    "errors": {
+      "quoteRequired": "You must provide a valid quotation number.",
+      "invalidAmount": "You must enter a valid financial amount."
+    }
+  },
+  "ContactEmail": {
+    "missingFields": "Missing required fields (nombre, email, mensaje)",
+    "internalError": "Internal server error",
+    "businessSubject": "🚨 [Lead] {asunto} - {nombre}",
+    "clientSubject": "✓ We received your request - {brandName}",
+    "businessTitle": "New Contact Lead",
+    "businessSubtitle": "A new form submission has been received from the website.",
+    "clientTitle": "We have received your message",
+    "clientSubtitle": "Thank you for getting in touch with our strategy and design team.",
+    "applicantDetails": "Applicant Details",
+    "messageSummary": "Your Message Summary",
+    "name": "Name",
+    "email": "Email Address",
+    "sentMessage": "Sent message",
+    "automatedDisclaimer": "* This is an automated email confirming the receipt of your request. Our strategy and development team will analyze your data to contact you shortly.",
+    "allRightsReserved": "All rights reserved.",
+    "footerText": "Digital Strategy & Professional Marketing."
+  },
+  "PurchaseReceipt": {
+    "missingFields": "Missing required fields to process the order",
+    "internalError": "Internal server error",
+    "clientTitle": "Purchase Confirmation",
+    "clientSubtitle": "Thank you for your purchase. Your order #{orderId} has been successfully processed.",
+    "clientSubject": "✓ Your purchase receipt #{orderId} - {brandName}",
+    "businessTitle": "New Sale Processed!",
+    "businessSubtitle": "A new successful payment of ${amount} MXN has been registered.",
+    "businessSubject": "💰 [Sale] Order #{orderId} - ${amount} MXN",
+    "orderIdLabel": "Order ID",
+    "paymentDateLabel": "Payment Date",
+    "buyerInfo": "Buyer Information",
+    "billingDetails": "Billing Details",
+    "customerLabel": "Customer",
+    "addressLabel": "Address",
+    "companyLabel": "Company",
+    "operationDetails": "Transaction Details",
+    "productSummary": "Product Summary",
+    "totalPaid": "Total Paid",
+    "clientDisclaimer": "* Charges will appear on your statement as technology services. If you require a tax invoice, please reply directly to this email attaching your full tax details within 72 hours.",
+    "allRightsReserved": "All rights reserved.",
+    "footerText": "Digital Strategy & Professional Marketing."
+  },
+  "header": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "viewPlans": "View plans",
+    "cartAriaLabel": "Cart, {count} items",
+    "nav": {
+      "home": "Home",
+      "history": "History",
+      "difference": "Difference",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "title": "Digital Strategy & Creative Concept",
+    "description": "We transform your brand's essence into high-impact visual ideas. From basic research to the delivery of your first digital concept.",
+    "cta": "View plans"
+  },
+  "aboutSection": {
+    "imageAlt": "Marca Visible creative team reviewing color samples",
+    "title": "Where ideas turn into video",
+    "paragraph1": "At Marca Visible, we create audiovisual content designed to stand out in the digital world. We help brands, entrepreneurs, and companies communicate their ideas through creative videos, animations, and advertising content that connects with audiences.",
+    "paragraph2": "Our audiovisual production combines strategy, creativity, and technology to develop videos that not only look good, but also drive impact and results.",
+    "paragraph3": "From conceptualization to post-production, we offer professional solutions for advertising campaigns, social media, corporate content, and creative projects."
+  },
+  "story": {
+    "title": "The Story Behind Marca Visible",
+    "paragraph1": "Marca Visible was born with the goal of offering professional audiovisual production adapted to today's digital environment. We are a creative team specialized in video marketing, animation, and visual content for advertising, working flexibly and remotely to collaborate with clients across various industries.",
+    "paragraph2": "Our approach focuses on creating audiovisual projects that combine creativity, strategy, and visual quality, helping brands communicate their ideas clearly and engagingly.",
+    "paragraph3": "We believe every video is an opportunity to tell a story, deliver a message, and strengthen a brand's presence in the digital world."
+  },
+  "plans": {
+    "vatSuffix": "+ VAT"
+  },
+  "cartDrawer": {
+    "ariaLabel": "Shopping cart",
+    "title": "Your Cart",
+    "itemCount": "{count, plural, =1 {1 item} other {# items}}",
+    "closeCart": "Close cart",
+    "emptyTitle": "Your cart is empty",
+    "emptySubtitle": "Explore our plans and start boosting your project today.",
+    "viewPlans": "View plans",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "removeItem": "Remove {name}",
+    "subtotal": "Subtotal",
+    "vat": "+ VAT",
+    "checkout": "Checkout",
+    "clearCart": "Empty cart"
+  },
+  "customService": {
+    "title": "Design Your Service",
+    "intro": "At Marca Visible you can build your custom audiovisual production by selecting the services you need. Our system allows you to choose the project type, video duration, and creative or technical elements you wish to include, generating an <highlight>estimated quote immediately</highlight>.",
+    "stepsTitle": "Steps to design your project:",
+    "outro": "Upon completion, you will receive an <highlight1>estimated price for your project</highlight1> and can <highlight2>submit your request to start production</highlight2> or schedule a consultation with our creative team.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Email Address",
+    "selectVideoType": "Select the video type",
+    "selectDuration": "Choose the video duration",
+    "selectProduction": "Select production and post-production elements",
+    "selectCreative": "Add optional creative services",
+    "selectFormat": "Choose delivery format",
+    "submitting": "Sending...",
+    "submit": "Submit",
+    "statusSuccess": "Request sent! We will email you your estimated quote.",
+    "statusError": "An error occurred while sending the request.",
+    "steps": {
+      "step1": {
+        "title": "Select the video type",
+        "detail": "(social media, promotional video, corporate, animated, motion graphics, or editing own footage)."
+      },
+      "step2": {
+        "title": "Choose video duration",
+        "detail": "(30 seconds, 60 seconds, 90 seconds or more)."
+      },
+      "step3": {
+        "title": "Add optional creative services",
+        "detail": "such as creative concept, ad script, or storyboard."
+      },
+      "step4": {
+        "title": "Select production and post-production elements",
+        "detail": "such as motion graphics, color grading, subtitles, soundtrack, or animations."
+      },
+      "step5": {
+        "title": "Choose delivery format",
+        "detail": "vertical, horizontal, square, or multi-format."
+      }
+    },
+    "options": {
+      "videoTypes": {
+        "socialMedia": "Social media",
+        "promo": "Promotional video",
+        "corporate": "Corporate",
+        "animated": "Animated",
+        "motionGraphics": "Motion graphics",
+        "editing": "Editing own footage"
+      },
+      "durations": {
+        "sec30": "30 seconds",
+        "sec60": "60 seconds",
+        "sec90": "90 seconds",
+        "more90": "More than 90 seconds"
+      },
+      "formats": {
+        "vertical": "Vertical",
+        "horizontal": "Horizontal",
+        "square": "Square",
+        "multiformat": "Multi-format"
+      },
+      "production": {
+        "motionGraphics": "Motion graphics",
+        "subtitles": "Subtitles",
+        "music": "Soundtrack",
+        "animations": "Animations",
+        "other": "Other"
+      },
+      "creative": {
+        "concept": "Creative concept",
+        "script": "Ad script",
+        "storyboard": "Storyboard",
+        "other": "Other"
+      }
+    }
+  },
+  "planDetail": {
+    "breadcrumbsAriaLabel": "Breadcrumb navigation",
+    "breadcrumbs": {
+      "home": "Home",
+      "plans": "Plans"
+    },
+    "plusTax": "+ VAT",
+    "whatIncludes": "What is included?",
+    "category": "Category",
+    "relatedProducts": "Related products"
+  },
+  "contact": {
+    "imageAlt": "Person using phone connected to the digital world",
+    "title": "Let's Talk About Your Next Project",
+    "description": {
+      "part1": "If you have an idea, project, or campaign that you want to turn into audiovisual content, at",
+      "part2": "we are ready to help you."
+    },
+    "reasonsTitle": "You can write to us for:",
+    "reasons": {
+      "quote": "Request a quote",
+      "project": "Start an audiovisual project",
+      "doubts": "Resolve questions about our services"
+    },
+    "details": {
+      "address": "Address",
+      "email": "Email:",
+      "phone": "Phone"
+    },
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "E.g. John Doe",
+      "email": "Email address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+52 55 1234 5678",
+      "reason": "Reason for contact",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about your ideas or needs...",
+      "sending": "Sending...",
+      "send": "Send message"
+    },
+    "status": {
+      "success": "Message sent successfully! We will get in touch with you soon.",
+      "error": "An error occurred while sending the form."
+    }
+  },
+  "contactForm": {
+    "title": "You can also complete our form and our team will get in touch with you shortly.",
+    "fields": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "service": "Service of interest",
+      "servicePlaceholder": "Service of interest"
+    },
+    "submit": {
+      "sending": "Sending...",
+      "send": "Send"
+    },
+    "toast": {
+      "sending": "Sending message...",
+      "success": "Thank you! We received your message and will contact you shortly.",
+      "error": "An error occurred while sending the form. Please try again."
+    }
+  },
+  "difference": {
+    "title": "What Makes Marca Visible Different",
+    "description": "Choosing Marca Visible means working with a team that understands the power of visual content in modern communication.",
+    "items": {
+      "strategic": {
+        "title": "Strategic focus",
+        "text": "Every project is developed with a creative approach aligned with the client's communication and marketing goals."
+      },
+      "flexible": {
+        "title": "Flexible and digital production",
+        "text": "Our processes allow projects to be developed remotely, optimizing time and costs without sacrificing quality."
+      },
+      "creativity": {
+        "title": "Creativity applied to advertising",
+        "text": "We create visual content designed to capture attention and make an impact on digital platforms."
+      },
+      "adapted": {
+        "title": "Solutions tailored to each client",
+        "text": "We offer customizable services so that each project adapts to the specific needs of each brand."
+      },
+      "quality": {
+        "title": "Professional quality",
+        "text": "We work with tools and production processes that guarantee high-level visual results."
+      }
+    }
+  },
+  "footer": {
+    "sections": {
+      "payments": "We accept",
+      "phone": "Phone",
+      "location": "Location",
+      "legal": "Legal"
+    },
+    "legal": {
+      "privacy": "Privacy Notice",
+      "terms": "Terms & Conditions",
+      "refunds": "Refund Policy"
+    },
+    "switchLanguage": "Switch language"
+  },
+  "quoteCta": {
+    "imageAlt": "Team reviewing a project proposal",
+    "title": {
+      "part1": "Do you already have a",
+      "highlight": "quote?"
+    },
+    "description": "If you already received your estimate and reference number from our team, click here to quickly complete your payment and start your project.",
+    "cta": "Pay now"
+  },
+  "cartControls": {
+    "addToCart": "Add to cart",
+    "added": "Added",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity"
+  }
+}
