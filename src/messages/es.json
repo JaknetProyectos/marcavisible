@@ -1,0 +1,379 @@
+{
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "summary": "1. Verificación",
+      "shippingPayment": "2. Envíos y Pago"
+    },
+    "success": {
+      "title": "Operación Concluida Exitosamente",
+      "description": "El pago ha sido autorizado de forma correcta. La infraestructura en la nube de tu plan se encuentra actualmente en proceso de configuración para su próxima activación.",
+      "paymentReference": "Referencia del Pago:",
+      "paidAmount": "Total Abonado:",
+      "transactionStatus": "Estado de la Operación:",
+      "approved": "Aprobada",
+      "backToCatalog": "Volver a las Opciones"
+    },
+    "empty": {
+      "title": "Tu carrito está actualmente vacío",
+      "description": "No encontramos servicios de alojamiento guardados en tu sesión de navegación actual.",
+      "goToStore": "Explorar Catálogo"
+    },
+    "order": {
+      "title": "Servicios en tu orden",
+      "clear": "Vaciar Lista"
+    },
+    "financial": {
+      "title": "Desglose de Pago",
+      "couponPlaceholder": "Código de descuento",
+      "applyCoupon": "Ingresar",
+      "appliedCoupon": "Código {code} (-{discount}%)",
+      "remove": "Eliminar",
+      "couponInvalid": "El código introducido no es válido o su vigencia ha terminado.",
+      "subtotal": "Subtotal acumulado:",
+      "discount": "Descuento Aplicado:",
+      "netTotal": "Monto Total Final:",
+      "tax": "Impuesto {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Continuar con la Compra",
+      "processing": "Verificando Transacción en Keycop...",
+      "payAmount": "Realizar Pago {amount}",
+      "backToCart": "Ajustar pedido / Modificar cupón"
+    },
+    "errors": {
+      "declined": "La transacción fue rechazada por la institución bancaria emisor.",
+      "connection": "Se produjo una falla de conexión con el proveedor de pagos."
+    },
+    "metadata": {
+      "couponApplied": "Descuento aplicado correctamente",
+      "standardSale": "Adquisición en línea ordinaria"
+    },
+    "form": {
+      "buyerTitle": "Información del Comprador y Facturación",
+      "addressTitle": "Datos para Contacto y Configuración",
+      "paymentTitle": "Módulo de Pago Seguro",
+      "firstName": "Nombre *",
+      "lastName": "Apellido(s) *",
+      "email": "Correo de contacto *",
+      "phone": "Teléfono Móvil (10 dígitos) *",
+      "company": "Nombre de la Empresa (Opcional)",
+      "streetAddress": "Dirección, Número Externo e Interno *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Int 4",
+      "neighborhood": "Colonia / Entre que calles (Opcional)",
+      "neighborhoodPlaceholder": "Col. Vértiz Narvarte",
+      "city": "Alcaldía o Municipio *",
+      "state": "Estado / Entidad *",
+      "statePlaceholder": "CDMX",
+      "postalCode": "Código Postal *",
+      "country": "País",
+      "mexico": "México (MX)",
+      "cardNumber": "Número de la Tarjeta (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Nombre del Titular *",
+      "cardHolderPlaceholder": "Tal como figura en el plástico",
+      "expiryMonth": "Mes de Expiración (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Año de Expiración (AA) *",
+      "expiryYearPlaceholder": "29",
+      "cvv": "Código de Seguridad (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Proceso respaldado por protocolos de alta seguridad"
+    },
+    "images": {
+      "etominAlt": "Keycop",
+      "securePaymentAlt": "Plataforma Protegida"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "badge": "Área de Clientes",
+      "title": "Añadir estimación personalizada"
+    },
+    "imageAlt": "Identidad MarcaVisible",
+    "authorized": {
+      "title": "Pago verificado",
+      "description": "Ingresa la clave de la cotización y el importe acordado previamente con el equipo comercial para proceder con el cobro."
+    },
+    "form": {
+      "badge": "Pago personalizado",
+      "title": "Información del presupuesto",
+      "quoteLabel": "Identificador de cotización",
+      "quotePlaceholder": "Ej. ELV-2026-001",
+      "amountLabel": "Importe acordado",
+      "amountPlaceholder": "0.00",
+      "taxNote": "+ Se incluirá el impuesto correspondiente durante la siguiente fase."
+    },
+    "buttons": {
+      "adding": "Agregando al carrito...",
+      "addToCart": "Añadir al carrito"
+    },
+    "errors": {
+      "quoteRequired": "Es indispensable introducir una clave de cotización válida.",
+      "invalidAmount": "Debes especificar un importe numérico válido."
+    }
+  },
+  "header": {
+    "logoAlt": "Logotipo de MarcaVisible",
+    "titleAlt": "Marca MarcaVisible",
+    "cart": "Cesta",
+    "changeLanguage": "Seleccionar idioma",
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "solutions": "Servicios",
+      "processes": "Flujos de trabajo"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": {
+        "part1": "Potencia tu",
+        "highlight": "negocio",
+        "part2": "con diseño creativo y planeación"
+      },
+      "description": "Diseñamos experiencias de marca y tácticas de marketing que generan impacto real. Identidad visual, desarrollo de contenido, automatización y campañas pensadas para obtener resultados tangibles.",
+      "imageAlt": "Estrategias de Marketing Digital"
+    },
+    "services": {
+      "branding": {
+        "category": "Branding",
+        "title": "Logotipos e Identidad Visual"
+      },
+      "content": {
+        "category": "Contenido",
+        "title": "Diseño Gráfico y Contenidos"
+      },
+      "motion": {
+        "category": "Motion",
+        "title": "Animación y Anuncios"
+      }
+    },
+    "strategy": {
+      "tag": "Estrategia digital",
+      "title": {
+        "part1": "Haz destacar tu proyecto",
+        "highlight": "en el mercado adecuado"
+      },
+      "description": "Estructuramos proyectos digitales centrados en la expansión, posición de marca y conversión. Resultados directos y con mayor valor.",
+      "button": "Comenzar hoy",
+      "imageAlt": "Lleva tu marca al siguiente nivel"
+    }
+  },
+  "contact": {
+    "title": "Hablemos",
+    "description": "En MarcaVisible nos apasiona convertir tus ideas en proyectos tangibles a través de estrategias a medida que conectan con tu audiencia. ¿Quieres impulsar tu negocio? Ponte en contacto, envíanos un correo o visítanos.",
+    "info": {
+      "email": {
+        "label": "Correo",
+        "value": "ayuda@marcavisible.com.mx"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "5550881886"
+      },
+      "address": {
+        "label": "Ubicación",
+        "value": "Calle Alfonso Napoles Gándara #50, Int 401, Piso 4, Col. Peña Blanca Santa Fe, Cp. 01210, Alcaldía Alvaro Obregon, Ciudad De México"
+      }
+    },
+    "form": {
+      "placeholders": {
+        "name": "Tu nombre",
+        "email": "Tu correo electrónico",
+        "phone": "Teléfono de contacto",
+        "message": "Escribe tu mensaje"
+      },
+      "successMessage": "Tu mensaje se envió con éxito.",
+      "errorFallback": "Ocurrió un error al enviar el mensaje",
+      "buttons": {
+        "send": "ENVIAR MENSAJE",
+        "sending": "PROCESANDO..."
+      }
+    }
+  },
+  "footer": {
+    "legal": {
+      "title": "Avisos Legales",
+      "terms": "TÉRMINOS Y CONDICIONES",
+      "refunds": "POLÍTICA DE DEVOLUCIONES Y REEMBOLSO",
+      "privacy": "POLÍTICA DE PRIVACIDAD",
+      "paymentAlt": "Opciones de pago"
+    },
+    "contact": {
+      "title": "Ubicación y Contacto",
+      "phoneLabel": "Atención Telefónica",
+      "addressLabel": "Ubicación Física",
+      "addressLine1": "CALLE ALFONSO NAPOLES GANDARA #50,",
+      "addressLine2": "INT 401, PISO 4, COL. PEÑA BLANCA SANTA FE,",
+      "addressLine3": "CP. 01210, ALCALDÍA ALVARO OBREGON,",
+      "addressLine4": "CIUDAD DE MÉXICO",
+      "emailLabel": "Dirección de Correo"
+    },
+    "brand": {
+      "tagline": "Soluciones enfocadas en innovación, estrategia y creatividad."
+    },
+    "copyright": "Todos los derechos reservados."
+  },
+  "about": {
+    "hero": {
+      "tag": "Quiénes Somos",
+      "title": {
+        "part1": "Conoce al equipo detrás de",
+        "part2": "cada proyecto de",
+        "highlight": "diseño y estrategia"
+      },
+      "description": "En MarcaVisible sabemos que cada elemento visual transmite la personalidad de tu empresa. Nuestros profesionales transforman conceptos abstractos en piezas gráficas inolvidables, garantizando que tu mensaje llegue e impacte.",
+      "specializationLabel": "Especialidades clave:"
+    },
+    "specializations": {
+      "branding": {
+        "title": "Identidad e Imagen Corporativa",
+        "description": "Potencia el posicionamiento de tu marca con conceptos visuales que transmitan tu visión."
+      },
+      "illustration": {
+        "title": "Ilustración e Iconografía",
+        "description": "Comunica tus valores mediante arte gráfico adaptado totalmente a tus metas."
+      },
+      "interaction": {
+        "title": "Diseño Interactivo y Motion",
+        "description": "Captura el interés del usuario mediante animaciones y elementos en movimiento."
+      }
+    },
+    "history": {
+      "tag": "Nuestra Trayectoria",
+      "title": {
+        "part1": "Nuestra Trayectoria y",
+        "highlight": "Enfoque"
+      },
+      "description": "En MarcaVisible convertimos analítica en propuestas creativas que atraen usuarios y generan clientes. Integramos experiencia analítica de mercado con creatividad estratégica para asegurar resultados excepcionales."
+    },
+    "skills": {
+      "design": "Diseño gráfico e identidad",
+      "illustrations": "Ilustración personalizada",
+      "icons": "Set de íconos gráficos",
+      "motion": "Contenido animado"
+    },
+    "highlights": {
+      "experience": "Trayectoria Comprobada",
+      "awards": "Premios y Menciones",
+      "education": "Formación Especializada"
+    }
+  },
+  "plans": {
+    "services": {
+      "title": "Nuestros Servicios",
+      "description": "Acompañamos el crecimiento de tu proyecto mediante alternativas estratégicas y personalizadas"
+    },
+    "customProject": {
+      "imageAlt": "Proyecto a la Medida",
+      "title": "Proyecto a la Medida",
+      "description": "Comprendemos la individualidad de cada empresa. Diseñamos planes estratégicos hechos a la medida de tus prioridades concretas, conectando tus campañas visuales y de difusión con las metas de tu negocio. Pide un presupuesto o efectúa tu pago.",
+      "buttons": {
+        "quote": "Pedir presupuesto",
+        "pay": "Pagar Ahora"
+      }
+    },
+    "packages": {
+      "title": "Paquetes Especializados",
+      "description": "Optimiza la productividad de tu organización. Nuestras opciones de servicio están enfocadas en potenciar el alcance de tu marca."
+    },
+    "cards": {
+      "taxNote": "MXN + IVA correspondiente",
+      "recommended": "Opción Destacada",
+      "addToCart": "Agregar al Carrito"
+    }
+  },
+  "processes": {
+    "hero": {
+      "tag": "Nuestra Metodología",
+      "title": {
+        "part1": "Desde la conceptualización",
+        "part2": "hasta la",
+        "highlight": "ejecución"
+      },
+      "description": "En MarcaVisible transformamos visiones conceptuales en piezas gráficas de alto valor. En este caso práctico mostramos el flujo de trabajo dividido en tres momentos: del primer boceto al acabado final.",
+      "imageAlt": "Etapas de desarrollo visual"
+    },
+    "phase1": {
+      "tag": "Fase 01",
+      "title": "Conceptualización e ilustración inicial",
+      "description": "Todo desarrollo inicia en el lienzo en blanco, aterrizando la visión creativa. En este punto sentamos la estructura base sobre la cual erigiremos la identidad visual definitiva.",
+      "imageAlt": "Conceptualización inicial"
+    },
+    "phase2": {
+      "tag": "Fase 02",
+      "title": "Precisión y detalle técnico",
+      "description": "Transformamos conceptos generales en soluciones visuales refinadas.",
+      "features": {
+        "feat1": "Atención minuciosa al detalle",
+        "feat2": "Equilibrio entre técnica y diseño gráfico",
+        "feat3": "Unimos tecnología y diseño para obtener soluciones innovadoras."
+      },
+      "imageAlt": "Perfeccionamiento visual"
+    },
+    "phase3": {
+      "tag": "Fase 03",
+      "title": "El valor del color en la identidad",
+      "description": "Descubre el papel de la paleta cromática en la percepción de marca. Fundamentamos nuestras decisiones de color tanto en elementos estéticos como en la respuesta psicológica del consumidor.",
+      "colors": {
+        "pinkvibrant": "Rosa Vibrante",
+        "limeglow": "Verde Lima",
+        "zincdark": "Zinc Oscuro",
+        "slatelight": "Slate Claro"
+      }
+    },
+    "result": {
+      "tag": "Resultado Obtenido",
+      "title": "Entregable final",
+      "images": {
+        "processAlt": "Fase de producción - desarrollo",
+        "appAlt": "Fase de producción - implementación",
+        "fullAlt": "Resultado final completo"
+      }
+    }
+  },
+  "ContactEmail": {
+    "missingFields": "Existen campos obligatorios sin completar (nombre, email, mensaje)",
+    "internalError": "Fallo interno en el servidor",
+    "businessSubject": "🚨 [Lead] {asunto} - {nombre}",
+    "clientSubject": "✓ Atendimos tu mensaje - {brandName}",
+    "businessTitle": "Nuevo Prospecto de Contacto",
+    "businessSubtitle": "Llegó un nuevo registro desde el portal web.",
+    "clientTitle": "Recibimos tu consulta",
+    "clientSubtitle": "Agradecemos que nos escribieras a nuestro departamento de estrategia y diseño.",
+    "applicantDetails": "Datos del Usuario",
+    "messageSummary": "Resumen de la Consulta",
+    "name": "Nombre",
+    "email": "Dirección de Correo",
+    "sentMessage": "Contenido del mensaje",
+    "automatedDisclaimer": " Este mensaje automático confirma la recepción de tu consulta. Nuestro equipo estratégico y técnico revisará tus datos para ponerse en contacto contigo a la brevedad.",
+    "allRightsReserved": "Reservados todos los derechos.",
+    "footerText": "Estrategia Digital y Marketing Eficiente."
+  },
+  "PurchaseReceipt": {
+    "missingFields": "Faltan requerimientos esenciales para efectuar la orden",
+    "internalError": "Fallo interno en el servidor",
+    "clientTitle": "Comprobante de Compra",
+    "clientSubtitle": "Gracias por preferirnos. Tu pedido #{orderId} fue gestionado correctamente.",
+    "clientSubject": "✓ Tu comprobante de compra #{orderId} - {brandName}",
+    "businessTitle": "¡Transacción Registrada!",
+    "businessSubtitle": "Se acreditó un cobro por una cantidad de ${amount} MXN.",
+    "businessSubject": "💰 [Venta] Orden #{orderId} - ${amount} MXN",
+    "orderIdLabel": "Clave de Pedido",
+    "paymentDateLabel": "Fecha del Pago",
+    "buyerInfo": "Datos del Usuario",
+    "billingDetails": "Información para Facturación",
+    "customerLabel": "Comprador",
+    "addressLabel": "Ubicación",
+    "companyLabel": "Razón Social",
+    "operationDetails": "Detalles de la Compra",
+    "productSummary": "Desglose de Artículos",
+    "totalPaid": "Monto Total",
+    "clientDisclaimer": " El cargo se reflejará en tu banco bajo el rubro de servicios de tecnología. En caso de requerir comprobante fiscal, responde a este correo enviando tus datos completos en un plazo máximo de 72 horas.",
+    "allRightsReserved": "Reservados todos los derechos.",
+    "footerText": "Estrategia Digital y Marketing Eficiente."
+  }
+}

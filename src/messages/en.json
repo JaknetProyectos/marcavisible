@@ -1,0 +1,379 @@
+{
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "summary": "1. Review Order",
+      "shippingPayment": "2. Shipping & Payment"
+    },
+    "success": {
+      "title": "Payment Successfully Processed",
+      "description": "Your transaction has been approved. Your cloud environment setup is currently underway and will be activated shortly.",
+      "paymentReference": "Transaction Reference:",
+      "paidAmount": "Amount Settled:",
+      "transactionStatus": "Payment Status:",
+      "approved": "CONFIRMED",
+      "backToCatalog": "Return to Store"
+    },
+    "empty": {
+      "title": "Your cart is currently empty",
+      "description": "No hosting solutions were found in your active browsing session.",
+      "goToStore": "Explore Catalog"
+    },
+    "order": {
+      "title": "Items in Your Cart",
+      "clear": "Clear Selection"
+    },
+    "financial": {
+      "title": "Order Summary",
+      "couponPlaceholder": "Promotional code",
+      "applyCoupon": "Apply",
+      "appliedCoupon": "Voucher {code} (-{discount}%)",
+      "remove": "Remove",
+      "couponInvalid": "The promotional code entered is invalid or expired.",
+      "subtotal": "Items Subtotal:",
+      "discount": "Total Discount:",
+      "netTotal": "Net Amount Due:",
+      "tax": "Tax {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Proceed to Checkout",
+      "processing": "Verifying payment via Keycop...",
+      "payAmount": "Pay {amount}",
+      "backToCart": "Modify items / Change promo code"
+    },
+    "errors": {
+      "declined": "The transaction was declined by your issuing bank.",
+      "connection": "Unable to connect with the payment gateway."
+    },
+    "metadata": {
+      "couponApplied": "Discount code applied",
+      "standardSale": "Standard digital checkout"
+    },
+    "form": {
+      "buyerTitle": "Billing & Purchaser Information",
+      "addressTitle": "Contact & Setup Information",
+      "paymentTitle": "Encrypted Checkout Gateway",
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "email": "Email Address *",
+      "phone": "Mobile Number (10 digits) *",
+      "company": "Company Name (Optional)",
+      "streetAddress": "Street Address, Unit & Suite *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Apt 4",
+      "neighborhood": "District / Nearby Crossings (Optional)",
+      "neighborhoodPlaceholder": "Vertiz Narvarte",
+      "city": "City / Locality *",
+      "state": "State / Region *",
+      "statePlaceholder": "CDMX",
+      "postalCode": "Postal Code *",
+      "country": "Country",
+      "mexico": "Mexico (MX)",
+      "cardNumber": "Card Number (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Cardholder Name *",
+      "cardHolderPlaceholder": "As printed on the card",
+      "expiryMonth": "Expiration Month (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Expiration Year (YY) *",
+      "expiryYearPlaceholder": "29",
+      "cvv": "Card Security Code (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Processed under strict security standards"
+    },
+    "images": {
+      "etominAlt": "Keycop",
+      "securePaymentAlt": "Secured transaction"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "badge": "Client Portal",
+      "title": "Include custom estimate"
+    },
+    "imageAlt": "MarcaVisible identity",
+    "authorized": {
+      "title": "Payment confirmed",
+      "description": "Enter your quotation reference and the rate pre-approved by our sales department to complete checkout."
+    },
+    "form": {
+      "badge": "Customized checkout",
+      "title": "Estimate summary",
+      "quoteLabel": "Quotation reference",
+      "quotePlaceholder": "e.g., ELV-2026-001",
+      "amountLabel": "Agreed amount",
+      "amountPlaceholder": "0.00",
+      "taxNote": "+ Applicable taxes will be added in the next step."
+    },
+    "buttons": {
+      "adding": "Adding to cart...",
+      "addToCart": "Add to cart"
+    },
+    "errors": {
+      "quoteRequired": "A valid quotation reference number is required.",
+      "invalidAmount": "Please enter a valid numeric value."
+    }
+  },
+  "header": {
+    "logoAlt": "MarcaVisible emblem",
+    "titleAlt": "MarcaVisible corporate",
+    "cart": "Basket",
+    "changeLanguage": "Select language",
+    "nav": {
+      "home": "Home",
+      "about": "Who We Are",
+      "solutions": "Services",
+      "processes": "Workflows"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": {
+        "part1": "Elevate your",
+        "highlight": "business",
+        "part2": "through design and strategic vision"
+      },
+      "description": "We build engaging visual experiences and digital initiatives structured for growth. Branding, creative assets, automation, and targeted campaigns engineered for measurable results.",
+      "imageAlt": "Digital Growth Marketing"
+    },
+    "services": {
+      "branding": {
+        "category": "Branding",
+        "title": "Visual Identity & Logos"
+      },
+      "content": {
+        "category": "Content",
+        "title": "Creative Assets & Media"
+      },
+      "motion": {
+        "category": "Motion",
+        "title": "Animation & Ad Campaigns"
+      }
+    },
+    "strategy": {
+      "tag": "Digital strategy",
+      "title": {
+        "part1": "Position your business",
+        "highlight": "where target audiences are"
+      },
+      "description": "We formulate digital frameworks focused on scalability, brand awareness, and conversions. High clarity, maximum efficiency.",
+      "button": "Start a project",
+      "imageAlt": "Brand positioning strategy"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "At MarcaVisible, we transform creative concepts into reality through tailored digital initiatives that connect with audiences. Ready to enhance your digital presence? Reach out via email, phone, or schedule a visit.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "ayuda@marcavisible.com.mx"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "5550881886"
+      },
+      "address": {
+        "label": "Office Location",
+        "value": "Calle Alfonso Napoles Gandara #50, Int 401, Floor 4, Col. Pena Blanca Santa Fe, Zip Code 01210, Alvaro Obregon, Mexico City"
+      }
+    },
+    "form": {
+      "placeholders": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Contact Phone Number",
+        "message": "Write your message"
+      },
+      "successMessage": "Your inquiry has been sent successfully.",
+      "errorFallback": "Unable to deliver your message at this time",
+      "buttons": {
+        "send": "SUBMIT",
+        "sending": "PROCESSING..."
+      }
+    }
+  },
+  "footer": {
+    "legal": {
+      "title": "Legal Notice",
+      "terms": "TERMS AND CONDITIONS",
+      "refunds": "RETURNS AND REFUND POLICY",
+      "privacy": "PRIVACY POLICY",
+      "paymentAlt": "Accepted payment options"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "phoneLabel": "Telephone",
+      "addressLabel": "Address",
+      "addressLine1": "Calle Alfonso Nápoles Gándara #50,",
+      "addressLine2": "Unit 401, 4th Floor, Col. Peña Blanca Santa Fe,",
+      "addressLine3": "Postal Code 01210, Álvaro Obregón Borough,",
+      "addressLine4": "México City",
+      "emailLabel": "Email"
+    },
+    "brand": {
+      "tagline": "Digital agency driven by innovation, strategic thinking, and design."
+    },
+    "copyright": "All rights reserved."
+  },
+  "about": {
+    "hero": {
+      "tag": "Who We Are",
+      "title": {
+        "part1": "Meet the team",
+        "part2": "specialized in",
+        "highlight": "strategy and visual creative"
+      },
+      "description": "At MarcaVisible, every design element reflects the core message of your business. Our team translates ideas into compelling visual assets, ensuring your message delivers genuine market impact.",
+      "specializationLabel": "Core Expertise:"
+    },
+    "specializations": {
+      "branding": {
+        "title": "Corporate & Brand Identity",
+        "description": "Elevate your market position with visual frameworks designed around your brand identity."
+      },
+      "illustration": {
+        "title": "Custom Illustration & Vectors",
+        "description": "Communicate complex concepts through custom graphic assets built for your goals."
+      },
+      "interaction": {
+        "title": "Motion Graphics & UI Motion",
+        "description": "Engage viewers using fluid animations and dynamic elements designed for user experience."
+      }
+    },
+    "history": {
+      "tag": "Our Journey",
+      "title": {
+        "part1": "Our Journey and",
+        "highlight": "Core Capabilities"
+      },
+      "description": "At MarcaVisible, we transform market insights into design solutions that capture attention and drive business outcomes. We pair deep analytical expertise with passion for creative execution to consistently exceed client expectations."
+    },
+    "skills": {
+      "design": "Visual and logo design",
+      "illustrations": "Bespoke illustrations",
+      "icons": "Custom icon libraries",
+      "motion": "Dynamic motion design"
+    },
+    "highlights": {
+      "experience": "Proven Industry Track Record",
+      "awards": "Industry Recognition",
+      "education": "Continuous Learning & Expertise"
+    }
+  },
+  "plans": {
+    "services": {
+      "title": "Core Services",
+      "description": "Accelerate your market potential through our suite of specialized solutions"
+    },
+    "customProject": {
+      "imageAlt": "Bespoke Project Solution",
+      "title": "Bespoke Project",
+      "description": "Every organization has unique requirements. We craft tailor-made creative initiatives aligned with your strategic objectives, ensuring every marketing effort produces measurable impact. Request an estimate or proceed to checkout.",
+      "buttons": {
+        "quote": "Request Quote",
+        "pay": "Pay Now"
+      }
+    },
+    "packages": {
+      "title": "Service Packages",
+      "description": "Streamline workflows and maximize resource efficiency with our structured service plans."
+    },
+    "cards": {
+      "taxNote": "MXN + applicable tax",
+      "recommended": "Most Popular",
+      "addToCart": "Add to Selection"
+    }
+  },
+  "processes": {
+    "hero": {
+      "tag": "Our Methodology",
+      "title": {
+        "part1": "From initial ideation",
+        "part2": "to",
+        "highlight": "final execution"
+      },
+      "description": "At MarcaVisible, we turn abstract visions into effective visual communication. This overview highlights our three-step method: moving from initial concepts to polished digital design.",
+      "imageAlt": "Production and design process"
+    },
+    "phase1": {
+      "tag": "Phase 01",
+      "title": "Discovery and Sketching",
+      "description": "Projects begin with conceptual drafts, giving concrete shape to client goals. This phase establishes the structural blueprint for all subsequent digital assets.",
+      "imageAlt": "Conceptual drafting phase"
+    },
+    "phase2": {
+      "tag": "Phase 02",
+      "title": "Precision & Digital Refinement",
+      "description": "We translate foundational concepts into seamless digital products.",
+      "features": {
+        "feat1": "Focus on high-impact details",
+        "feat2": "Technical precision blended with visual art",
+        "feat3": "Merging modern tech with creative strategy."
+      },
+      "imageAlt": "Digital perfection in execution"
+    },
+    "phase3": {
+      "tag": "Phase 03",
+      "title": "Strategic Color Integration",
+      "description": "Discover how strategic color selection shapes brand perception. Our choices rely on behavioral psychology and aesthetic balance to drive connection.",
+      "colors": {
+        "pinkvibrant": "Pink Vibrant",
+        "limeglow": "Lime Glow",
+        "zincdark": "Dark Zinc",
+        "slatelight": "Light Slate"
+      }
+    },
+    "result": {
+      "tag": "Final Outcome",
+      "title": "Completed Deliverable",
+      "images": {
+        "processAlt": "Design workflow showcase",
+        "appAlt": "Application and usage view",
+        "fullAlt": "Comprehensive final output"
+      }
+    }
+  },
+  "ContactEmail": {
+    "missingFields": "Missing required fields (nombre, email, mensaje)",
+    "internalError": "Internal server error",
+    "businessSubject": "🚨 [Lead] {asunto} - {nombre}",
+    "clientSubject": "✓ We received your request - {brandName}",
+    "businessTitle": "New Contact Lead",
+    "businessSubtitle": "A new form submission has been received from the website.",
+    "clientTitle": "We have received your message",
+    "clientSubtitle": "Thank you for getting in touch with our strategy and design team.",
+    "applicantDetails": "Applicant Details",
+    "messageSummary": "Your Message Summary",
+    "name": "Name",
+    "email": "Email Address",
+    "sentMessage": "Sent message",
+    "automatedDisclaimer": "* This is an automated email confirming the receipt of your request. Our strategy and development team will analyze your data to contact you shortly.",
+    "allRightsReserved": "All rights reserved.",
+    "footerText": "Digital Strategy & Professional Marketing."
+  },
+  "PurchaseReceipt": {
+    "missingFields": "Missing required fields to process the order",
+    "internalError": "Internal server error",
+    "clientTitle": "Purchase Confirmation",
+    "clientSubtitle": "Thank you for your purchase. Your order #{orderId} has been successfully processed.",
+    "clientSubject": "✓ Your purchase receipt #{orderId} - {brandName}",
+    "businessTitle": "New Sale Processed!",
+    "businessSubtitle": "A new successful payment of ${amount} MXN has been registered.",
+    "businessSubject": "💰 [Sale] Order #{orderId} - ${amount} MXN",
+    "orderIdLabel": "Order ID",
+    "paymentDateLabel": "Payment Date",
+    "buyerInfo": "Buyer Information",
+    "billingDetails": "Billing Details",
+    "customerLabel": "Customer",
+    "addressLabel": "Address",
+    "companyLabel": "Company",
+    "operationDetails": "Transaction Details",
+    "productSummary": "Product Summary",
+    "totalPaid": "Total Paid",
+    "clientDisclaimer": "* Charges will appear on your statement as technology services. If you require a tax invoice, please reply directly to this email attaching your full tax details within 72 hours.",
+    "allRightsReserved": "All rights reserved.",
+    "footerText": "Digital Strategy & Professional Marketing."
+  }
+}

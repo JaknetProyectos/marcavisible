@@ -4,7 +4,7 @@ import createNextIntlPlugin from 'next-intl/plugin';
 import { hostname } from 'node:os';
 
 // Indicamos la ruta al archivo de configuración de i18n
-const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
+const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 
 const nextConfig = {
