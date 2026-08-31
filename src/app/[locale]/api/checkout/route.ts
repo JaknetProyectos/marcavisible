@@ -5,7 +5,7 @@ import { formatPrice } from "@/lib/price";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const SUPPORT_EMAIL = "hello@zenvia.com.mx";
+const SUPPORT_EMAIL = "ayuda@marcavisible.com.mx";
 const BRAND_NAME = "Marca Visible";
 const BRAND_URL = "marcavisible.com.mx";
 const BRAND_LOGO = "https://marcavisible.com.mx/title.png";
