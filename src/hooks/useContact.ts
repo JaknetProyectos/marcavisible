@@ -37,8 +37,7 @@ export function useContact(options?: SendContactOptions) {
     setIsLoading(true);
 
     try {
-      const response = await fetch(
-        options?.endpoint || `/${locale ?? "es"}/api/contacto`,
+      const response = await fetch(`/api/contacto`,
         {
           method: "POST",
           headers: {
