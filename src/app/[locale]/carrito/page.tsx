@@ -238,7 +238,7 @@ export default function CarritoCheckoutPage() {
         setSuccessData(response.data);
 
         try {
-          await fetch(`/${locale ?? "es"}/api/checkout`, {
+          await fetch(`/api/checkout`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
