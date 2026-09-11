@@ -172,11 +172,11 @@
       },
       "phone": {
         "label": "Phone",
-        "value": "5550881886"
+        "value": "5566512670"
       },
       "address": {
         "label": "Address",
-        "value": "Calle Alfonso Napoles Gandara #50, Int 401, Floor 4, Col. Pena Blanca Santa Fe, Zip Code 01210, Alvaro Obregon, Mexico City"
+        "value": "Calz. Legaria 549, Col. 10 de abril, Del. Miguel Hidalgo, CDMX, C.P. 11250"
       }
     },
     "form": {
@@ -197,19 +197,19 @@
   "footer": {
     "legal": {
       "title": "Legal Information",
-      "terms": "TERMS & CONDITIONS",
-      "refunds": "REFUND POLICY",
+      "terms": "TERMS AND CONDITIONS",
+      "refunds": "RETURN AND REFUND POLICY",
       "privacy": "PRIVACY POLICY",
       "paymentAlt": "Accepted payment methods"
     },
     "contact": {
       "title": "Office & Contact",
-      "phoneLabel": "Phone Support",
       "addressLabel": "Physical Location",
-      "addressLine1": "Calle Alfonso Nápoles Gándara #50,",
-      "addressLine2": "Unit 401, 4th Floor, Col. Peña Blanca Santa Fe,",
-      "addressLine3": "Postal Code 01210, Álvaro Obregón Borough,",
-      "addressLine4": "México City",
+      "phoneLabel": "Phone Support",
+      "addressLine1": "Calz. Legaria 549,",
+      "addressLine2": "Col. 10 de abril,",
+      "addressLine3": "Del. Miguel Hidalgo,",
+      "addressLine4": "CDMX, C.P. 11250",
       "emailLabel": "Email Support"
     },
     "brand": {

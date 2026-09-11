@@ -30,12 +30,100 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { processKeycopPayment } from "@/lib/payment";
 import { formatPrice } from "@/lib/price";
+import { usePackages } from "@/hooks/usePackages";
+import { useProduct } from "@/hooks/useProduct";
 
 const VALID_COUPONS = [
   { code: "MARCA10", discount: 0.1 },
   { code: "BRAND15", discount: 0.15 },
   { code: "MARCAPRO20", discount: 0.2 },
 ];
+
+function CartItemRow({ item }: { item: any }) {
+
+  const itemReal = useProduct(item.product.id);
+  const { removeItem, updateQuantity } = useCart()
+
+  // Puedes usar itemReal en caso de requerir datos actualizados del servidor
+  const productData = itemReal;
+
+  return (
+    <div
+      key={item.product.id}
+      className="rounded-xl bg-slate-50 p-4 shadow-sm transition-transform hover:-translate-y-1"
+    >
+      <div className="grid grid-cols-[88px_minmax(0,1fr)] gap-4 sm:grid-cols-[96px_minmax(0,1fr)]">
+        <div className="relative overflow-hidden rounded-xl bg-white p-2 shadow-sm">
+          <Link href={`/soluciones`} className="absolute inset-0 z-10" />
+          <Image
+            src={productData.image}
+            alt={productData.name}
+            fill
+            className="object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+
+        <div className="flex min-w-0 flex-col justify-between gap-4">
+          <div className="flex items-start justify-between gap-3">
+            <div className="min-w-0">
+              <p className="mb-1 inline-block rounded-md bg-green-100 px-2 py-0.5 font-mono text-[9px] font-bold tracking-[0.16em] text-green-600">
+                {productData.id}
+              </p>
+
+              <h3 className="line-clamp-1 text-base font-bold text-slate-800">
+                {productData.name}
+              </h3>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => removeItem(item.product.id)}
+              className="rounded-xl p-1.5 text-slate-400 transition hover:bg-slate-200 hover:text-pink-500"
+            >
+              <Trash2 className="h-5 w-5" />
+            </button>
+          </div>
+
+          <div className="flex items-end justify-between gap-4">
+            <div className="flex items-center rounded-xl bg-white p-1 shadow-sm">
+              <button
+                type="button"
+                onClick={() =>
+                  updateQuantity(item.product.id, item.quantity - 1)
+                }
+                className="rounded-xl p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-900"
+              >
+                <Minus className="h-3 w-3" />
+              </button>
+
+              <span className="w-9 text-center text-xs font-bold text-slate-900">
+                {item.quantity}
+              </span>
+
+              <button
+                type="button"
+                onClick={() =>
+                  updateQuantity(item.product.id, item.quantity + 1)
+                }
+                className="rounded-xl p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-900"
+              >
+                <Plus className="h-3 w-3" />
+              </button>
+            </div>
+
+            <span className="text-lg font-black tracking-tight text-slate-900">
+              {formatPrice(
+                productData.price * item.quantity,
+                "MXN",
+                true
+              )}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 type Step = 1 | 2 | 3;
 
@@ -355,19 +443,16 @@ export default function CarritoCheckoutPage() {
 
           <div className="flex items-center gap-3">
             <div
-              className={`h-2.5 w-2.5 rounded-xl transition-colors duration-300 ${
-                step >= 1 ? "bg-white" : "bg-green-800"
-              }`}
+              className={`h-2.5 w-2.5 rounded-xl transition-colors duration-300 ${step >= 1 ? "bg-white" : "bg-green-800"
+                }`}
             />
             <div
-              className={`h-0.5 w-12 rounded-xl transition-colors duration-300 ${
-                step >= 2 ? "bg-white" : "bg-green-800"
-              }`}
+              className={`h-0.5 w-12 rounded-xl transition-colors duration-300 ${step >= 2 ? "bg-white" : "bg-green-800"
+                }`}
             />
             <div
-              className={`h-2.5 w-2.5 rounded-xl transition-colors duration-300 ${
-                step >= 2 ? "bg-white" : "bg-green-800"
-              }`}
+              className={`h-2.5 w-2.5 rounded-xl transition-colors duration-300 ${step >= 2 ? "bg-white" : "bg-green-800"
+                }`}
             />
           </div>
         </div>
@@ -420,89 +505,7 @@ export default function CarritoCheckoutPage() {
 
                       <div className="mt-6 space-y-4">
                         {items.map((item) => (
-                          <div
-                            key={item.product.id}
-                            className="rounded-xl bg-slate-50 p-4 shadow-sm transition-transform hover:-translate-y-1"
-                          >
-                            <div className="grid grid-cols-[88px_minmax(0,1fr)] gap-4 sm:grid-cols-[96px_minmax(0,1fr)]">
-                              <div className="relative overflow-hidden rounded-xl bg-white p-2 shadow-sm">
-                                <Link
-                                  href={`/soluciones`}
-                                  className="absolute inset-0 z-10"
-                                />
-                                <Image
-                                  src={item.product.image}
-                                  alt={item.product.name}
-                                  fill
-                                  className="object-cover transition-transform duration-500 hover:scale-105"
-                                />
-                              </div>
-
-                              <div className="flex min-w-0 flex-col justify-between gap-4">
-                                <div className="flex items-start justify-between gap-3">
-                                  <div className="min-w-0">
-                                    <p className="mb-1 inline-block rounded-md bg-green-100 px-2 py-0.5 font-mono text-[9px] font-bold tracking-[0.16em] text-green-600">
-                                      {item.product.id}
-                                    </p>
-
-                                    <h3 className="line-clamp-1 text-base font-bold text-slate-800">
-                                      {item.product.name}
-                                    </h3>
-                                  </div>
-
-                                  <button
-                                    type="button"
-                                    onClick={() => removeItem(item.product.id)}
-                                    className="rounded-xl p-1.5 text-slate-400 transition hover:bg-slate-200 hover:text-pink-500"
-                                  >
-                                    <Trash2 className="h-5 w-5" />
-                                  </button>
-                                </div>
-
-                                <div className="flex items-end justify-between gap-4">
-                                  <div className="flex items-center rounded-xl bg-white p-1 shadow-sm">
-                                    <button
-                                      type="button"
-                                      onClick={() =>
-                                        updateQuantity(
-                                          item.product.id,
-                                          item.quantity - 1
-                                        )
-                                      }
-                                      className="rounded-xl p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-900"
-                                    >
-                                      <Minus className="h-3 w-3" />
-                                    </button>
-
-                                    <span className="w-9 text-center text-xs font-bold text-slate-900">
-                                      {item.quantity}
-                                    </span>
-
-                                    <button
-                                      type="button"
-                                      onClick={() =>
-                                        updateQuantity(
-                                          item.product.id,
-                                          item.quantity + 1
-                                        )
-                                      }
-                                      className="rounded-xl p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-900"
-                                    >
-                                      <Plus className="h-3 w-3" />
-                                    </button>
-                                  </div>
-
-                                  <span className="text-lg font-black tracking-tight text-slate-900">
-                                    {formatPrice(
-                                      item.product.price * item.quantity,
-                                      "MXN",
-                                      true
-                                    )}
-                                  </span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                          <CartItemRow key={item.product.id} item={item} />
                         ))}
                       </div>
                     </CardShell>

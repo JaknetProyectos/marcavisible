@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 
 
 
-const packagesDataSpanish: Product[] = [
+export const packagesDataSpanish: Product[] = [
   {
     id: "basic",
     name: "Paquete Básico Premium",
@@ -69,7 +69,7 @@ const packagesDataSpanish: Product[] = [
   },
 ];
 
-const packagesDataEnglish: Product[] = [
+export const packagesDataEnglish: Product[] = [
   {
     id: "basic",
     name: "Premium Basic Package",

@@ -5,7 +5,7 @@ import { useLocale } from "next-intl";
 import { useState, useEffect } from "react";
 
 
-const servicesDataSpanish: Product[] = [
+export const servicesDataSpanish: Product[] = [
   {
     id: "1",
     name: "PACK DE ICONOS O ELEMENTOS GRÁFICOS",
@@ -190,7 +190,7 @@ const servicesDataSpanish: Product[] = [
   },
 ];
 
-const servicesDataEnglish: Product[] = [
+export const servicesDataEnglish: Product[] = [
   {
     id: "1",
     name: "ICONS OR GRAPHIC ELEMENTS PACK",

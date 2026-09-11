@@ -172,11 +172,11 @@
       },
       "phone": {
         "label": "Teléfono",
-        "value": "5550881886"
+        "value": "5566512670"
       },
       "address": {
         "label": "Dirección",
-        "value": "Calle Alfonso Napoles Gándara #50, Int 401, Piso 4, Col. Peña Blanca Santa Fe, Cp. 01210, Alcaldía Alvaro Obregon, Ciudad De México"
+        "value": "Calz. Legaria 549, Col. 10 de abril, Del. Miguel Hidalgo, CDMX, C.P. 11250"
       }
     },
     "form": {
@@ -198,18 +198,18 @@
     "legal": {
       "title": "Información Legal",
       "terms": "TÉRMINOS Y CONDICIONES",
-      "refunds": "POLÍTICA DE REEMBOLSOS",
-      "privacy": "AVISO DE PRIVACIDAD",
+      "refunds": "POLÍTICA DE DEVOLUCIONES Y REEMBOLSO",
+      "privacy": "POLÍTICA DE PRIVACIDAD",
       "paymentAlt": "Métodos de pago aceptados"
     },
     "contact": {
       "title": "Contacto y Oficinas",
       "phoneLabel": "Línea Telefónica",
       "addressLabel": "Dirección Física",
-      "addressLine1": "CALLE ALFONSO NAPOLES GANDARA #50,",
-      "addressLine2": "INT 401, PISO 4, COL. PEÑA BLANCA SANTA FE,",
-      "addressLine3": "CP. 01210, ALCALDÍA ALVARO OBREGON,",
-      "addressLine4": "CIUDAD DE MÉXICO",
+      "addressLine1": "Calz. Legaria 549,",
+      "addressLine2": "Col. 10 de abril,",
+      "addressLine3": "Del. Miguel Hidalgo,",
+      "addressLine4": "CDMX, C.P. 11250",
       "emailLabel": "Correo de Atención"
     },
     "brand": {
