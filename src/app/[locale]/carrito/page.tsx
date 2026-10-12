@@ -28,7 +28,7 @@ import { useCart } from "@/context/CartContext";
 
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { processKeycopPayment } from "@/lib/payment";
+import { processEtominPayment, PaymentData } from "@/lib/payment";
 import { formatPrice } from "@/lib/price";
 import { usePackages } from "@/hooks/usePackages";
 import { useProduct } from "@/hooks/useProduct";
@@ -288,10 +288,12 @@ export default function CarritoCheckoutPage() {
     setErrorMessage("");
 
     const uniqueOrderId = `MC-${Date.now()}`;
+    const confirmationRedirectUrl = `${window.location.origin}/confirmacion?reference=${uniqueOrderId}&state=APPROVED`;
 
-    const paymentPayload = {
+    const paymentPayload: PaymentData = {
       amount: Number(grandTotal.toFixed(2)),
       orderId: uniqueOrderId,
+      redirectUrl: confirmationRedirectUrl,
       cardData: {
         number: formData.cardNumber.replace(/\s/g, ""),
         name: formData.cardName.trim(),
@@ -320,7 +322,13 @@ export default function CarritoCheckoutPage() {
     };
 
     try {
-      const response = await processKeycopPayment(paymentPayload);
+      const response = await processEtominPayment(paymentPayload);
+
+      // 3. Redirección y autenticación
+      if (response.needsRedirect && response.redirectUrl) {
+        window.location.href = response.redirectUrl;
+        return;
+      }
 
       if (response.success) {
         setSuccessData(response.data);
@@ -346,6 +354,10 @@ export default function CarritoCheckoutPage() {
         }
 
         clearCart();
+
+        const successUrl = `/confirmacion?status=${response.status}&reference=${response.reference}&transactionId=${response.data?.transactionId || response.orderId}&amount=${paymentPayload.amount}`;
+        window.location.href = successUrl;
+
         setStep(3);
       } else {
         setErrorMessage(response.error || t("errors.declined"));
@@ -520,7 +532,7 @@ export default function CarritoCheckoutPage() {
 
                         <div className="mt-5 flex flex-row items-center justify-center rounded-xl bg-slate-50 p-4">
                           <Image
-                            src="/keycop.webp"
+                            src="/etomin.png"
                             alt={t("images.securePaymentAlt")}
                             width={150}
                             height={20}
@@ -858,7 +870,7 @@ export default function CarritoCheckoutPage() {
                         <div className="mt-6 rounded-xl bg-slate-50 p-4">
                           <div className="flex items-center justify-center">
                             <Image
-                              src="/keycop.webp"
+                              src="/etomin.png"
                               alt={t("images.securePaymentAlt")}
                               width={150}
                               height={20}
